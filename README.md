@@ -11,15 +11,15 @@
 &lt;script type="text/javascript" src="jquery.cover-image.min.js"&gt;&lt;/script&gt;
 </pre>
 ## How to use
-<p>Add the '.image-cover' class in all images that you want apply the plugin. Example:</p>
+<p>Add the '.image-cover' class in all images that you want apply the plugin.</p>
 <pre>&lt;img src="image.jpg" class="image-cover"/&gt;</pre>
-<p>Plugin will detect the inmediatly parent to fill image in it. Example:</p>
+<p>Plugin will detect the inmediatly parent to fill image in it.</p>
 <pre>
 &lt;article&gt;
   &lt;img src="image.jpg" class="image-cover"/&gt;
 &lt;/article&gt;
 </pre>
-<p>Other example:</p>
+<p>Other example with content above image.</p>
 <pre>
 &lt;a href="/"&gt;
   &lt;span style="position: absolute"&gt;
@@ -28,9 +28,9 @@
   &lt;img src="example.jpg" class="image-cover"/&gt;
 &lt;/a&gt;
 </pre>
-<p>You also can use your own class</p>
+<p>You also can use your own class.</p>
 <pre>$(".my-class").imageCover();</pre>
-<p>The plugin have a Bootstrap Carousel support, and is very easy:</p>
+<p>The plugin have a Bootstrap Carousel support.</p>
 <pre>$(".my-class").imageCover({
   carousel: "#your-carousel-id" // Bootstrap carousel support
 });</pre>
