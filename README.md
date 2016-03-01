@@ -19,10 +19,10 @@
   &lt;img src="image.jpg" class="image-cover"/&gt;
 &lt;/article&gt;
 </pre>
-<p>Other example with content above image.</p>
+<p>Support to add content above image.</p>
 <pre>
 &lt;a href="/"&gt;
-  &lt;span style="position: absolute"&gt;
+  &lt;span&gt;
     Link text
   &lt;/span&gt;
   &lt;img src="example.jpg" class="image-cover"/&gt;
@@ -36,5 +36,9 @@
 });</pre>
 
 ## Updates
+
+### v1.0.1
+- Support to auto absolute position to elements above image.
+
 ### v1.0.0
 - First stable release.

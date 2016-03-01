@@ -1,6 +1,6 @@
 /*
  * Image Cover jQuery Plugin
- * Version 1.0.0
+ * Version 1.0.1
  * https://github.com/jordicuenca/image-cover
  * -
  * Copyright (c) 2016 Jordi Cuenca Martín <jordicuenca@gmail.com>
@@ -31,6 +31,19 @@ $.fn.imageCover = function( option ){
         'max-width' : 'none !important',
         'max-height': 'none !important'
       }).hide();
+
+      /* Hide the overflow image with css in container */
+
+      $(this).parent().css({
+        'overflow': 'hidden'
+      });
+
+      /* Support to element above image */
+
+      $(this).prev().css({
+        'position': 'absolute',
+        'z-index': '1'
+      });
 
     });
 
@@ -71,12 +84,6 @@ $.fn.imageCover = function( option ){
 
       var margin_left = ( parent_width - image_width_resize ) / 2;
       var margin_top  = ( parent_height - image_height_resize ) / 2;
-
-      /* Hide the overflow image with css in container */
-
-      $(this).parent().css({
-        'overflow': 'hidden'
-      });
 
       /* Resizing and apply new marings in image with css */
 
