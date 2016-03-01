@@ -7,7 +7,7 @@
 ## Installation
 <p>Add it in your <code>&lt;head&gt;</code> page.</p>
 <pre>
-&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="jquery.cover-image.min.js"&gt;&lt;/script&gt;
 </pre>
 ## How to use
