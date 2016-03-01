@@ -1,4 +1,4 @@
-# Image Cover jQuery Plugin v1.0.0 (Stable)
+# Image Cover jQuery Plugin v1.0.1
 
 <p>Resize proportionally and center image to fill with it a container element.</p>
 <p>This plugin was created about my personal needs in my developments. It's simple, light and solves a specific need. I think that it can be useful to others developers.</p>
